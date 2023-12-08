@@ -1,0 +1,62 @@
+
+#map { width: 100%;
+    height: 300px;
+   border: 0;
+   border-radius: 8px;
+} 
+body {
+   font-family: 'Arial', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color:#75b1f1f3;
+}
+
+#cep {
+   margin-top: 20px;
+   text-align: center;
+}
+
+#endereco, #prev-temp, #mapa, #noticias {
+   margin: 20px auto;
+   max-width: 600px;
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+   padding: 8px;
+   font-size: 16px;
+}
+
+button {
+   padding: 8px 16px;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+p {
+   margin: 8px 0;
+}
+
+#mapa iframe {
+   width: 100%;
+   height: 300px;
+   border: 0;
+   border-radius: 8px;
+}
+
+#noticias p {
+   border-bottom: 1px solid #ddd;
+   padding-bottom: 10px;
+}
+
+#noticias a {
+   color: #007bff;
+   text-decoration: none;
+}
+
+#noticias a:hover {
+   text-decoration: underline;
+}
